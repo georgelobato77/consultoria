@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    background-color: #f4f4f9; /* Define a cor de fundo */
+    color: #333; /* Define a cor do texto */
+    line-height: 1.6; /* Define a altura da linha */
+}
+header {
+    background-color: #1a1a2e; /* Define a cor de fundo do cabeçalho */
+    color: #fff; /* Define a cor do texto do cabeçalho */
+    text-align: center; /* Centraliza o texto */
+    padding: 1.5rem 0; /* Define o padding */
+}
+header h1 {
+    margin: 0; /* Remove a margem */
+    font-size: 2.5rem; /* Define o tamanho da fonte */
+}
+header p {
+    margin: 0; /* Remove a margem */
+    font-size: 1.2rem; /* Define o tamanho da fonte */
+}
+section {
+    padding: 1.5rem; /* Define o padding */
+    margin: 1rem auto; /* Define a margem */
+    max-width: 800px; /* Define a largura máxima */
+    background: #fff; /* Define a cor de fundo */
+    border-radius: 8px; /* Define o raio da borda */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Define a sombra */
+}
+.presentation {
+    text-align: center; /* Centraliza o texto */
+}
+.presentation h2 {
+    font-size: 1.8rem; /* Define o tamanho da fonte */
+    color: #162447; /* Define a cor do texto */
+}
+.presentation ul {
+    list-style: none; /* Remove o estilo da lista */
+    padding: 0; /* Remove o padding */
+}
+.presentation ul li {
+    margin: 0.5rem 0; /* Define a margem */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    line-height: 1.4; /* Define a altura da linha */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+.solutions ul {
+    list-style-type: disc; /* Define o estilo da lista */
+    padding-left: 1.5rem; /* Define o padding à esquerda */
+}
+.solutions ul li {
+    margin: 0.5rem 0; /* Define a margem */
+}
+.how-it-works ol {
+    padding-left: 1.5rem; /* Define o padding à esquerda */
+}
+.how-it-works li {
+    margin: 0.8rem 0; /* Define a margem */
+}
+.cta {
+    text-align: center; /* Centraliza o texto */
+    margin: 2rem auto; /* Define a margem automática para centralizar */
+    max-width: 800px; /* Define a largura máxima */
+}
+.cta h3 {
+    font-size: 1.8rem; /* Define o tamanho da fonte */
+    color: #162447; /* Define a cor do texto */
+}
+.cta p {
+    font-size: 1.2rem; /* Define o tamanho da fonte */
+    margin: 1rem 0; /* Define a margem */
+}
+.cta .whatsapp-button {
+    display: inline-block; /* Define o display como inline-block */
+    background-color: #25d366; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    text-decoration: none; /* Remove a decoração do texto */
+    padding: 0.8rem 1.5rem; /* Define o padding */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    border-radius: 5px; /* Define o raio da borda */
+    transition: background-color 0.3s ease; /* Define a transição */
+}
+.cta .whatsapp-button:hover {
+    background-color: #1ebe5d; /* Define a cor de fundo ao passar o mouse */
+}
+footer {
+    background-color: #1a1a2e; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 1.5rem 0; /* Define o padding */
+    margin-top: 2rem; /* Define a margem superior */
+}
+footer a {
+    color: #fff; /* Define a cor do texto */
+    text-decoration: underline; /* Define a decoração do texto */
+    margin: 0 0.5rem; /* Define a margem */
+}
+footer a:hover {
+    color: #f4f4f9; /* Define a cor do texto ao passar o mouse */
+}
